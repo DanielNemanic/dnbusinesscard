@@ -1,0 +1,15 @@
+
+plugin.tx_dnbusinesscard {
+	view {
+		# cat=plugin.tx_dnbusinesscard/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:dnbusinesscard/Resources/Private/Templates/
+		# cat=plugin.tx_dnbusinesscard/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:dnbusinesscard/Resources/Private/Partials/
+		# cat=plugin.tx_dnbusinesscard/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:dnbusinesscard/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_dnbusinesscard//a; type=string; label=FE User storage PID
+		storagePid =
+	}
+}

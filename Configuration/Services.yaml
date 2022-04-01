@@ -1,0 +1,10 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  DN\BusinessCard\:
+    resource: '../Classes/*'
+  DN\BusinessCard\Domain\Repository\BusinessCardRepository:
+    public: true

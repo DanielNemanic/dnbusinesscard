@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-02-20T10:31:18Z" product-name="dnbusinesscard">
+		<header/>
+		<body>
+			<trans-unit id="tx_dnbusinesscard_domain_model_businesscard">
+				<source>Business Card</source>
+			</trans-unit>
+			<trans-unit id="admin.User">
+			    <source>Selectbox FE User to show as a Business Card</source>
+			</trans-unit>
+			<trans-unit id="admin.uploadPath">
+			    <source>Upload Path for User Images, must end with /</source>
+			</trans-unit>
+      <trans-unit id="jobposition">
+          <source>Job Position</source>
+      </trans-unit>
+		</body>
+	</file>
+</xliff>

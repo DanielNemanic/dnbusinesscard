@@ -1,0 +1,20 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default"/>
+
+<f:section name="main">
+	<div class="uk-child-width-1-1 uk-child-width-1-2@m" uk-grid>
+		<f:for each="{businessCards}" as="businessCard">
+			<div>
+				<f:if condition="{businessCard.image}">
+					<f:image class="uk-align-left uk-border-rounded" image="{businessCard.image.0}" treatIdAsReference="1"
+					         height="130c"/>
+				</f:if>
+				<b>{businessCard.name} </b> <br>
+				{businessCard.jobposition} <br>
+				T {businessCard.telephone} <br>
+				<f:link.email email="{businessCard.email}">{businessCard.email}</f:link.email>
+			</div>
+		</f:for>
+	</div>
+</f:section>
+</html>

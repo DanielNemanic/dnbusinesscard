@@ -1,0 +1,19 @@
+
+plugin.tx_dnbusinesscard {
+	view {
+		templateRootPaths.0 = {$plugin.tx_dnbusinesscard.view.templateRootPath}
+		partialRootPaths.0 = {$plugin.tx_dnbusinesscard.view.partialRootPath}
+		layoutRootPaths.0 = {$plugin.tx_dnbusinesscard.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_dnbusinesscard.persistence.storagePid}
+	}
+    settings {
+        storagePid = {$plugin.tx_dnbusinesscard.persistence.storagePid}
+    }
+}
+
+page.includeCSS.tx_dnbusinesscard = EXT:dnbusinesscard/Resources/Public/StyleSheet/style.css
+
+page.includeJSFooter.tx_dnbusinesscard = EXT:dnbusinesscard/Resources/Public/JavaScript/JS.js
+page.includeJSFooter.tx_dnbusinesscard.async = 1
